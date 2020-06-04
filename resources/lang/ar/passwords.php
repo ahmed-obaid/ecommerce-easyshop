@@ -1,10 +1,9 @@
 <?php
 
 return [
-
     /*
     |--------------------------------------------------------------------------
-    | Password Reset Language Lines
+    | Password Reminder Language Lines
     |--------------------------------------------------------------------------
     |
     | The following language lines are the default lines which match reasons
@@ -13,10 +12,9 @@ return [
     |
     */
 
-    'password' => 'Passwords must be at least eight characters and match the confirmation.',
-    'reset' => 'Your password has been reset!',
-    'sent' => 'We have e-mailed your password reset link!',
-    'token' => 'This password reset token is invalid.',
-    'user' => "We can't find a user with that e-mail address.",
-
+    'reset'     => 'تمت إعادة تعيين كلمة المرور!',
+    'sent'      => 'تم إرسال تفاصيل استعادة كلمة المرور الخاصة بك إلى بريدك الإلكتروني!',
+    'throttled' => 'الرجاء الانتظار قبل إعادة المحاولة.',
+    'token'     => 'رمز استعادة كلمة المرور الذي أدخلته غير صحيح.',
+    'user'      => 'لم يتم العثور على أيّ حسابٍ بهذا العنوان الإلكتروني.',
 ];
